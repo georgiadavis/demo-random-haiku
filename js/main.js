@@ -5,6 +5,7 @@
         'Green and speckled legs,\nHop on logs and lily pads\nSplash in cool water.',
         'In a pouch I grow,\nOn a southern continent --\nStrange creatures I know.'
     ];
+    var randomHaiku = haikus[Math.floor(Math.random() * haikus.length)];
 
     responseContainer.innerHTML = '';
 })();
