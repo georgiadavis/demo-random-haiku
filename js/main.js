@@ -7,5 +7,5 @@
     ];
     var randomHaiku = haikus[Math.floor(Math.random() * haikus.length)];
 
-    responseContainer.innerHTML = '';
+    responseContainer.innerHTML = '<pre>' + randomHaiku + '</pre>';
 })();
